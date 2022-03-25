@@ -7,6 +7,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-1-helloworld/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-2-controller-param/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-3-log-logback/pom.xml" />
       </list>
     </option>
   </component>

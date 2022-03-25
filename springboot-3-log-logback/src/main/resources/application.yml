@@ -1,0 +1,19 @@
+
+#debug: true
+
+logging:
+  level:
+    root:  INFO #log顯示層級為INFO
+    com:
+      example: DEBUG #com.example的log顯示層級為DEBUG
+  file:
+    name: mylog/my.log #在專案目錄下/mylog，記錄LOG檔，檔名my.log
+    #path: log #在專案目錄下/log，記錄LOG檔，檔名spring.log。不可以與name一起使用
+    clean-history-on-start: true
+  logback:
+    rollingpolicy:
+      clean-history-on-start: true #啟動時，清掉LOG檔。但測試都沒效果...
+      max-file-size: 100KB #限制LOG檔案大小
+      max-history: 7  #限制LOG檔案的記錄天數
+
+

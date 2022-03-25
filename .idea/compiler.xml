@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="springboot-3-log-logback" />
         <module name="SpringbootLearning" />
         <module name="springboot-2-controller-param" />
         <module name="springboot-1-helloworld" />
@@ -16,6 +17,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="springboot-1-helloworld" options="-parameters" />
       <module name="springboot-2-controller-param" options="-parameters" />
+      <module name="springboot-3-log-logback" options="-parameters" />
     </option>
   </component>
 </project>
